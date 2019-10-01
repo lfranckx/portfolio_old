@@ -21,7 +21,3 @@ My current projects are:<br>
         3. HTML/CSS/JS<br>
     https://lfranckx.github.io/quizapp/<br>
     https://github.com/lfranckx/quizapp<br>
-    
-
-
-

@@ -62,12 +62,23 @@ main {
     border-radius: 50px;
 }
 
+/* Skills Section */
+
+.skills {
+    text-align: center;
+    padding: 30px  500px;
+    border-bottom: solid grey 2px;  
+}
+
+.skills p {
+    margin: 15px;
+}
+
 .contact {
     text-align: center;
     padding: 30px  500px;
 }
 
-.contact h2 {
-
-    padding-bottom: 15px;
+.contact p {
+    margin: 15px;
 }
