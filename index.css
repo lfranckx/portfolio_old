@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color:white;
+    padding: 15px;
+    border-bottom: grey solid 1px;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.about {
+    padding: 30px  500px;
+    width: 100%;
+    border-bottom: solid grey 2px;
+    text-align: center;
+}
+
+.about p {
+    padding: 7px;
+}
+
+.about h2 {
+    padding-bottom: 10px;
+}
+
+.aboutImage {
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.projects {
+    padding: 30px  500px;
+    display: block;
+    width: 100%;
+    border-bottom: solid grey 2px;
+    text-align: center;
+}
+
+.projects h2 {
+    padding-bottom: 15px;
+}
+
+.thumbnail {
+    margin: 15px;
+    border-radius: 50px;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px  500px;
+}
+
+.contact h2 {
+
+    padding-bottom: 15px;
+}
