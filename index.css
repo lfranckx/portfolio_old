@@ -8,16 +8,16 @@ nav {
     width: 100%;
     background-color:white;
     padding: 15px;
-    text-align: center;
+    border-bottom: grey solid 1px;
 }
 
-/* .navList {
+.navList {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     justify-content: space-around;
     font-size: 1.5em;
-} */
+}
 
 main {
     display: flex;
@@ -28,32 +28,38 @@ main {
 .about {
     padding: 30px  500px;
     width: 100%;
+    border-bottom: solid grey 2px;
     text-align: center;
-    background-color: rgb(162, 74, 74);
-    height: 400px;
 }
 
+.about p {
+    padding: 7px;
+}
 
 .about h2 {
     padding-bottom: 10px;
-    position: relative;
-    top: 170px;
+}
+
+.aboutImage {
+    padding-top: 10px;
+    border-radius: 50px;
 }
 
 .projects {
     padding: 30px  500px;
     display: block;
     width: 100%;
+    border-bottom: solid grey 2px;
     text-align: center;
-    background-color: rgb(201, 128, 128);
-    height: 400px;
-    
 }
 
 .projects h2 {
     padding-bottom: 15px;
-    position: relative;
-    top: 185px;
+}
+
+.thumbnail {
+    margin: 15px;
+    border-radius: 50px;
 }
 
 /* Skills Section */
@@ -61,24 +67,18 @@ main {
 .skills {
     text-align: center;
     padding: 30px  500px;
-    background-color: rgb(126, 65, 65);
-    height: 300px;
+    border-bottom: solid grey 2px;  
 }
 
-.skills h2 {
-    position: relative;
-    top: 120px;
+.skills p {
+    margin: 15px;
 }
-
 
 .contact {
     text-align: center;
     padding: 30px  500px;
-    background-color: rgb(138, 73, 73);
-    height: 300px;
 }
 
-.contact h2 {
-    position: relative;
-    top: 120px;
+.contact p {
+    margin: 15px;
 }
