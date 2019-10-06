@@ -12,6 +12,12 @@ nav {
     z-index: 10;
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -48,10 +54,17 @@ header {
     margin: 0 0 15px;
 }
 
+.projectsContainer {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .containerIcons{
@@ -63,9 +76,9 @@ header {
 .thumbnail {
     background-color: rgb(40, 40, 40);
     color: white;
-    height: 30em;
-    width: 30em;
-    padding-top: 15em;
+    height: 20em;
+    width: 20em;
+    padding-top: 10em;
 }
 
 /* Contact */
@@ -95,9 +108,30 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-    .thumbnail {
-        height: 20em;
-        width: 20em;
-        padding-top: 10em;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 701px) {
+
+    .hamburger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .projectsContainer {
+        display: flex;
+        flex-direction: column;
     }
 }
